@@ -17,7 +17,7 @@ opcion_usuario=="piedra" && opcion_maquina=="papel" ||
 opcion_usuario=="papel" && opcion_maquina=="tijera"
     print("Elegiste #{opcion_usuario} y yo elegí #{opcion_maquina}:Perdiste")
     else
-  puts("Debes ingresar una opcion válida")    
+  puts("Argumento invalido: Debe ser piedra, papel o tijera.")    
   end
   end
   end
